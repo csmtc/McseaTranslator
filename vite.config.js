@@ -14,8 +14,8 @@ export default defineConfig({
         icon: 'https://www.google.com/s2/favicons?sz=64&domain=mcseas.club',
         match: ['https://mcseas.club/*'],
         connect: ['https://mcseas.club/*'],
-        updateURL: 'https://raw.githubusercontent.com/csmtc/McseaTranslator/main/mcsea/dist/mcsea.translator.user.js',
-        downloadURL: 'https://raw.githubusercontent.com/csmtc/McseaTranslator/main/mcsea/dist/mcsea.translator.user.js'
+        updateURL: 'https://raw.githubusercontent.com/csmtc/McseaTranslator/master/dist/mcsea.translator.user.js',
+        downloadURL: 'https://raw.githubusercontent.com/csmtc/McseaTranslator/master/dist/mcsea.translator.user.js'
       },
     }),
   ],

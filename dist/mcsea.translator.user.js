@@ -5,8 +5,8 @@
 // @author       csmtc
 // @description  translate context on mcsea
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=mcseas.club
-// @downloadURL  https://raw.githubusercontent.com/csmtc/McseaTranslator/main/mcsea/dist/mcsea.translator.user.js
-// @updateURL    https://raw.githubusercontent.com/csmtc/McseaTranslator/main/mcsea/dist/mcsea.translator.user.js
+// @downloadURL  https://raw.githubusercontent.com/csmtc/McseaTranslator/master/dist/mcsea.translator.user.js
+// @updateURL    https://raw.githubusercontent.com/csmtc/McseaTranslator/master/dist/mcsea.translator.user.js
 // @match        https://mcseas.club/*
 // @connect      https://mcseas.club/*
 // @grant        GM_getValue
@@ -81,9 +81,9 @@
       const t = this.map;
       const n = s.length, arr = [];
       let orig_i;
-      for (let i = 0; i < n; ) {
+      for (let i = 0; i < n;) {
         let t_curr = t, k = 0, v;
-        for (let j = i; j < n; ) {
+        for (let j = i; j < n;) {
           const x = s.codePointAt(j);
           j += x > 65535 ? 2 : 1;
           const t_next = t_curr.get(x);
